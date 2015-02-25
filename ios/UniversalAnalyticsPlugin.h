@@ -16,7 +16,9 @@
 - (void) debugMode: (CDVInvokedUrlCommand*)command;
 - (void) addCustomDimension: (CDVInvokedUrlCommand*)command;
 - (void) trackEvent: (CDVInvokedUrlCommand*)command;
+- (void) trackTiming: (CDVInvokedUrlCommand*)command;
 - (void) trackView: (CDVInvokedUrlCommand*)command;
+- (void) trackException: (CDVInvokedUrlCommand*)command;
 - (void) addTransaction: (CDVInvokedUrlCommand*)command;
 - (void) addTransactionItem: (CDVInvokedUrlCommand*)command;
 
